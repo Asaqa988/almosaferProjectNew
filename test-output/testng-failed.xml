@@ -6,7 +6,7 @@
       <class name="MyTestcase">
         <methods>
           <include name="mySetup"/>
-          <include name="CheckQitafLogoIfDisplayed"/>
+          <include name="SelectNumberOfPeople"/>
         </methods>
       </class> <!-- MyTestcase -->
     </classes>

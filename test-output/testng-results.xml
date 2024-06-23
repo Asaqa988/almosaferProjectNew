@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-13T19:08:28 EET" name="Default suite" finished-at="2024-06-13T19:08:35 EET" duration-ms="7281">
+  <suite started-at="2024-06-23T18:10:41 EET" name="Default suite" finished-at="2024-06-23T18:11:02 EET" duration-ms="21757">
     <groups>
     </groups>
-    <test started-at="2024-06-13T19:08:28 EET" name="Default test" finished-at="2024-06-13T19:08:35 EET" duration-ms="7281">
-      <class name="MyTestcase">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:MyTestcase@3fb6cf60]" started-at="2024-06-13T19:08:28 EET" name="mySetup" finished-at="2024-06-13T19:08:31 EET" duration-ms="3363" status="PASS">
+    <test started-at="2024-06-23T18:10:41 EET" name="Default test" finished-at="2024-06-23T18:11:02 EET" duration-ms="21757">
+      <class name="a.MyTestcase">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:a.MyTestcase@6d9f7a80]" started-at="2024-06-23T18:10:41 EET" name="mySetup" finished-at="2024-06-23T18:10:43 EET" duration-ms="1975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="CheckThePageIsFullyLoaded()[pri:0, instance:MyTestcase@3fb6cf60]" started-at="2024-06-13T19:08:31 EET" name="CheckThePageIsFullyLoaded" finished-at="2024-06-13T19:08:31 EET" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckThePageIsFullyLoaded -->
-        <test-method signature="ChangeTheLanguageOfTheWebSiteRandomly()[pri:1, instance:MyTestcase@3fb6cf60]" started-at="2024-06-13T19:08:31 EET" name="ChangeTheLanguageOfTheWebSiteRandomly" finished-at="2024-06-13T19:08:32 EET" duration-ms="509" status="PASS">
+        <test-method signature="ChangeTheLanguageOfTheWebSiteRandomly()[pri:1, instance:a.MyTestcase@6d9f7a80]" started-at="2024-06-23T18:10:43 EET" name="ChangeTheLanguageOfTheWebSiteRandomly" finished-at="2024-06-23T18:10:43 EET" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChangeTheLanguageOfTheWebSiteRandomly -->
-        <test-method signature="HotelSelection()[pri:2, instance:MyTestcase@3fb6cf60]" started-at="2024-06-13T19:08:32 EET" name="HotelSelection" finished-at="2024-06-13T19:08:32 EET" duration-ms="183" status="PASS">
+        <test-method signature="HotelSelection()[pri:2, instance:a.MyTestcase@6d9f7a80]" started-at="2024-06-23T18:10:43 EET" name="HotelSelection" finished-at="2024-06-23T18:10:43 EET" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelSelection -->
-        <test-method signature="SelectNumberOfPeople()[pri:3, instance:MyTestcase@3fb6cf60]" started-at="2024-06-13T19:08:32 EET" name="SelectNumberOfPeople" finished-at="2024-06-13T19:08:35 EET" duration-ms="3195" status="PASS">
+        <test-method signature="SelectNumberOfPeople()[pri:3, instance:a.MyTestcase@6d9f7a80]" started-at="2024-06-23T18:10:43 EET" name="SelectNumberOfPeople" finished-at="2024-06-23T18:10:46 EET" duration-ms="2962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectNumberOfPeople -->
-      </class> <!-- MyTestcase -->
+        <test-method signature="CheckThePageIsFullyLoaded()[pri:4, instance:a.MyTestcase@6d9f7a80]" started-at="2024-06-23T18:10:46 EET" name="CheckThePageIsFullyLoaded" finished-at="2024-06-23T18:11:00 EET" duration-ms="13485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckThePageIsFullyLoaded -->
+        <test-method signature="sortItems()[pri:5, instance:a.MyTestcase@6d9f7a80]" started-at="2024-06-23T18:11:00 EET" name="sortItems" finished-at="2024-06-23T18:11:02 EET" duration-ms="2571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortItems -->
+      </class> <!-- a.MyTestcase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
